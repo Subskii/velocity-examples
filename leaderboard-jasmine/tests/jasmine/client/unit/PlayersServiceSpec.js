@@ -2,7 +2,7 @@ describe('PlayersService', function () {
   'use strict';
 
   describe('getPlayerList', function () {
-    it('should ask for the players in primarily in descending score order, then in alphabetical order and return them', function () {
+    it('should ask for the players in primarily in descending score order then in alphabetical order and return them', function () {
       var result = {};
       spyOn(Players, 'find').and.returnValue(result);
 
